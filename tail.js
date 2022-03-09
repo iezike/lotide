@@ -10,6 +10,7 @@ const tail = function(input) {
   return input.slice(1);
 };
 
+//testing code
 const result = tail(["Hello", "Lighthouse", "Labs"]);
 assertEqual(result.length, 2); // ensure we get back two elements
 assertEqual(result[0], "Lighthouse"); // ensure first element is "Lighthouse"

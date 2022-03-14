@@ -9,8 +9,8 @@ describe("#head", () => {
 });
 
 it("returns '5' for ['5']", () => {
-  assert.strictEqual(head(['5']), '5'); 
-}); 
+  assert.strictEqual(head(['5']), '5');
+});
 
 it("returns Hello for ['Hello', 'Lighthouse', 'Labs']", () => {
   assert.strictEqual(head(["Hello", "Lighthouse", "Labs"]), "Hello");
@@ -18,4 +18,4 @@ it("returns Hello for ['Hello', 'Lighthouse', 'Labs']", () => {
 
 it("returns -2 for [-2,6,7]", () => {
   assert.strictEqual(head([-2,6,7]), -2);
-})
+});

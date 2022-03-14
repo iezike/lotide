@@ -7,7 +7,6 @@
 // assertEqual(result[1], "Labs"); // ensure second element is "Labs"
 
 
-
 const assert = require('chai').assert;
 const tail   = require('../tail');
 

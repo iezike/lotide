@@ -43,3 +43,5 @@ const assertArraysEqual = function(firstArr, secondArr) {
 // Testing code
 assertArraysEqual(results1, [ 1, 2, 5, 7, 2 ]);
 assertArraysEqual(results2, [ 'I\'ve', 'been', 'to', 'Hollywood' ]);
+
+module.exports = takeUntil;

@@ -52,3 +52,5 @@ assertArraysEqual(lettersPositions["u"], [ 7,20 ]);
 assertArraysEqual(lettersPositions["s"], [ 8,21]);
 assertArraysEqual(lettersPositions["e"], [ 9, 16, 22 ]);
 assertArraysEqual(lettersPositions["n"], [ 12 ]);
+
+module.exports = letterPositions;

@@ -29,3 +29,5 @@ const ab = { a: "1", b: "2", c: "4" };
 const ba = { b: "2", a: "1" };
 const z = eqObjects(ab,ba);
 console.log(z);
+
+module.exports = eqObjects;

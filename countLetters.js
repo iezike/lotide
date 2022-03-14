@@ -29,3 +29,5 @@ assertEqual(sentence['l'], 1);
 assertEqual(sentence['h'], 4);
 assertEqual(sentence['e'], 2); // expect this to fail.
 assertEqual(sentence['s'], 2);
+
+module.exports = countLetters;

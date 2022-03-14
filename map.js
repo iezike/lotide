@@ -1,24 +1,24 @@
-// Checks if two arrays are equals
-const eqArrays  = function(firstArr, secondArr) {
-  if (firstArr.length !== secondArr.length) {
-    return false;
-  } else {
-    for (let i = 0; i < firstArr.length; i++) {
-      if (firstArr[i] !== secondArr[i]) {
-        return false;
-      }
-    }
-  }
-  return true;
-};
+// // Checks if two arrays are equals
+// const eqArrays  = function(firstArr, secondArr) {
+//   if (firstArr.length !== secondArr.length) {
+//     return false;
+//   } else {
+//     for (let i = 0; i < firstArr.length; i++) {
+//       if (firstArr[i] !== secondArr[i]) {
+//         return false;
+//       }
+//     }
+//   }
+//   return true;
+// };
 
-const assertArraysEqual = function(firstArr, secondArr) {
-  if (eqArrays(firstArr, secondArr) === false) {
-    console.log("\u2757 Assertion Failed:", firstArr ,"!==", secondArr);
-  } else {
-    console.log("\u2714 Assertion Passed:", firstArr, "===", secondArr);
-  }
-};
+// const assertArraysEqual = function(firstArr, secondArr) {
+//   if (eqArrays(firstArr, secondArr) === false) {
+//     console.log("\u2757 Assertion Failed:", firstArr ,"!==", secondArr);
+//   } else {
+//     console.log("\u2714 Assertion Passed:", firstArr, "===", secondArr);
+//   }
+// };
 
 
 
@@ -36,15 +36,15 @@ const map = function(array, callback) {
   return results;
 };
 
-// Defining three diference map function used as "callback"(s)
-const results1 = map(words, word => word[0]);
-const results2 = map(words, word => word.length);
-const results3 = map(words, word => word);
+// // Defining three diference map function used as "callback"(s)
+// const results1 = map(words, word => word[0]);
+// const results2 = map(words, word => word.length);
+// const results3 = map(words, word => word);
 
 
-//Testing code
-assertArraysEqual(results1, [ 'g', 'c', 't', 'm', 't' ]);
-assertArraysEqual(results2, [ 6, 7, 2, 5, 3]);
-assertArraysEqual(results3, words);
+// //Testing code
+// assertArraysEqual(results1, [ 'g', 'c', 't', 'm', 't' ]);
+// assertArraysEqual(results2, [ 6, 7, 2, 5, 3]);
+// assertArraysEqual(results3, words);
 
 module.exports = map;

@@ -23,7 +23,7 @@ const countLetters = function(sentence) {
 };
 
 /// Testing code 
-const sentence = countLetters("lighthouse in the house")
+const sentence = countLetters("lighthouse, in the house")
 
 assertEqual(sentence['l'], 1);
 assertEqual(sentence['h'], 4);

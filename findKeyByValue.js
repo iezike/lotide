@@ -6,6 +6,7 @@ const assertEqual = function(actual, expected) {
   }
 };
 
+// Find key element by its value
 const findKeyByValue = function(object, value) {
   let output = undefined;
   for (let key in object) {

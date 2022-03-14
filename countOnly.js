@@ -14,9 +14,9 @@ const countOnly = function(allItems, itemsToCount) {
   for (const item of allItems) {
     if (itemsToCount[item]) {
       if (results[item]) {
-        results[item] += 1;
+        results[item] += 1;  // if already counted add 1 to the count
       } else {
-        results[item] = 1;
+        results[item] = 1;   // if not counted, assign the item a value of 1
       }
     }
   }
